@@ -1,0 +1,103 @@
+/* body {
+  background-color: #00000086;
+  color: white;
+} */
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+.links a {
+  font-size: 45px;
+  display: inline-block;
+  margin: 10px;
+  transition: all 1s;
+}
+.links a:hover {
+  transform: scale(1.4); 
+  transform: rotate(360deg);
+}
+.go-back {
+  margin-top: 50px;
+}
+
+
+
+div .my-img {
+  width: 40%;
+  height: 40% ;
+  border-radius: 50%;
+  margin-top: 100px;
+  
+  animation: imgmover 4s both infinite alternate;
+}
+@keyframes imgmover{
+    0%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(50px);
+    }
+}
+
+.projectes{
+  margin-top: 5vw;
+  text-align: center;
+}
+.projectes h1{
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec5{
+  margin: 70px 0px;
+}
+.sec5 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sec5 .row .revew{
+  background-color: rgba(83,188,241,0.4);
+  margin-right: 30px;
+  border-radius: 8px;
+  transition: 0.4s ease;
+  margin-bottom: 10px;
+ 
+}
+.sec5 .row .revew:hover{
+  transform: scale(.8);
+  box-shadow: 0 0 20px 0 rgb(0, 106, 255)
+}
+.sec5 .student{
+  margin-left: 100px;
+  display: flex;
+  
+}
+.sec5 .student h2{
+  margin-top: 25px;
+  margin-left: 8px;
+}
+.sec5 .student img{
+  margin-top: 10px;
+  
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sec5 .revious{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
