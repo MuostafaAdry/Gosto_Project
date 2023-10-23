@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    img: "../..//images/products/1-1-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "30.0",
+    category: "Breakfast",
+  },
+  {
+    id: 2,
+    img: "../..//images/products/2-1-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "10.0",
+    category: "Lunch",
+  },
+  {
+    id: 3,
+    img: "../..//images/products/3-1-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "20.0",
+    category: "Snacks",
+  },
+  {
+    id: 4,
+    img: "../..//images/products/7-1-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: " 40.0",
+    category: "Lunch",
+  },
+  {
+    id: 5,
+    img: "../..//images/products/5-1-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "50.00",
+    category: "Breakfast",
+  },
+  {
+    id: 6,
+    img: "../..//images/products/6-3.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "30.00",
+    category: "Dinner",
+  },
+  {
+    id: 7,
+    img: "../..//images/products/7-1-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "30.00",
+    category: "Snacks",
+  },
+  {
+    id: 8,
+    img: "../..//images/products/8-1.jpg",
+    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    desc: "by Blueskytechco in Mockups",
+    price: "30.00",
+    category: "Snacks",
+  },
+];
+
+export default products;
