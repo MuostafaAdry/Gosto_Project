@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.card {
+  margin: 1vw 1vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vw;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.img {
+  width: 40%;
+}
+
+.img img {
+  width: 100%;
+}
+
+.details {
+  text-align: center;
+  margin-left: 1vw 2vw;
+}
+
+@media (width: 280px) {
+  .card {
+    margin: 1vw 0vw;
+  }
+}/*# sourceMappingURL=card.module.css.map */

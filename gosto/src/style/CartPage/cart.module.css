@@ -1,0 +1,46 @@
+.close i {
+  margin-left: 70%;
+  font-size: 40px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  margin-top: 2vw;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.containerimg {
+  width: 30%;
+}
+
+.containerimg img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.info {
+  text-align: center;
+  width: 30%;
+}
+
+.delet i {
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.eidt i {
+  color: green;
+  margin-top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.total {
+  color: black;
+}/*# sourceMappingURL=cart.module.css.map */

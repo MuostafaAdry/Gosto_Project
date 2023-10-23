@@ -1,0 +1,157 @@
+.offers {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a2748;
+  padding-top: 2vw;
+}
+
+.Row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.offers h1 {
+  text-align: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+.offers .offersPreag {
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.offer1Title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 550;
+  color: white;
+}
+
+.offer1text {
+  color: gray;
+}
+
+.offer1text span, sub {
+  color: white;
+}
+
+.offerpragraph {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.offersbtn {
+  color: red;
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(90deg, #ff4267 40%, #ff4b2e 100%);
+  color: #fff;
+  border-radius: 40px;
+  padding: none;
+  border: none;
+  font-weight: 550;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.offers ul {
+  margin-top: 1vw;
+}
+
+.offers ul li {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: none;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 5px 0px 5px -2vw;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.offers ul li i {
+  margin-right: 30px;
+}
+
+.offer2 {
+  background-color: #253b54;
+  max-width: 27%;
+  padding: 2vw;
+  border-radius: 12px;
+}
+
+.offer2 .offer1Title {
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.offer1 {
+  margin-top: 2vw;
+}
+
+@media (min-width: 280px) {
+  .offer2 {
+    max-width: 100%;
+  }
+}
+.section h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+.section p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  margin-bottom: 5vw;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart {
+  background-color: white;
+  padding: 2vw 1vw;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.4s ease;
+  margin: 1vw;
+}
+
+.cart:hover {
+  box-shadow: 5px 8px 15px 5px gray;
+}
+
+.cart:hover span {
+  background-color: orangered;
+  color: white;
+}
+
+.cart span {
+  position: absolute;
+  padding: 1vw;
+  border-radius: 50%;
+  background-color: white;
+  color: gray;
+  margin-top: -4vw !important;
+  margin-left: -2vw;
+  font-size: 22px;
+  transition: 0.4s ease;
+}
+
+.cart p {
+  margin-bottom: 0;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=Plans.module.css.map */
